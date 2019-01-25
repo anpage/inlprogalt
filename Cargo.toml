@@ -1,0 +1,8 @@
+[package]
+name = "inlprogalt"
+version = "0.1.0"
+authors = ["Alex Page <alex@anpage.me>"]
+edition = "2018"
+
+[dependencies]
+libusb = { git = "https://github.com/anpage/libusb-rs" }
