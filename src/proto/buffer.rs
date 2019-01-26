@@ -7,6 +7,7 @@ pub const RAW_BANK_SIZE: u16 = 32;
 
 pub const GENESIS_ROM_PAGE0: u16 = 0x28;
 pub const GENESIS_ROM_PAGE1: u16 = 0x29;
+pub const N64_ROM_PAGE: u16 = 0x30;
 pub const MASKROM: u16 = 0xDD;
 
 pub const NOVAR: u16 = 0;

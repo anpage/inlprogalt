@@ -25,3 +25,10 @@ pub const SEGA_INIT: Operation = Operation {
     value: 7,
     length: 1
 };
+
+pub const N64_INIT: Operation = Operation {
+    direction: libusb::Direction::In,
+    request: REQUEST_IO,
+    value: 8,
+    length: 1
+};

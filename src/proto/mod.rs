@@ -6,6 +6,7 @@ pub mod io;
 pub mod buffer;
 pub mod operation;
 pub mod sega;
+pub mod n64;
 
 /// Represents a possible USB request
 ///
