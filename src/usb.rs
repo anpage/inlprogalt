@@ -42,9 +42,8 @@ pub fn open_usb_device(context: &libusb::Context) -> libusb::Result<libusb::Devi
     Err(libusb::Error::Other)
 }
 
-#[allow(unused)]
-fn usb_vendor_transfer(
-    handle: libusb::DeviceHandle,
+pub fn vendor_transfer(
+    handle: &libusb::DeviceHandle,
     direction: libusb::Direction,
     request: u8,
     value: u16,
